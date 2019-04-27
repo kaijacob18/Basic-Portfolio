@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  position:relative;
+}
+.myname{
+  display: flex;
+  justify-content: space-around;
+  }
+.menu{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  float: right;
+
+}
+.menu li{
+  list-style: none;
+}
+.menu a{
+  color: rgb(116, 111, 111);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size:14px;
+}
+
+.anti{
+  font-size: 20px;
+}
+
+
+
+img{
+  width: 300px;
+  height:200px;
+ 
+}
+body{
+font-family: Arial, Helvetica Nueue, Helvetica, sans-serif;
+width: 960px;
+}
+
+
+
