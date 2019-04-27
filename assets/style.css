@@ -1,46 +1,110 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  position:relative;
-}
-.myname{
-  display: flex;
-  justify-content: space-around;
-  }
-.menu{
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-  float: right;
 
-}
-.menu li{
-  list-style: none;
-}
-.menu a{
-  color: rgb(116, 111, 111);
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
-  font-size:14px;
-}
-
-.anti{
-  font-size: 20px;
-}
-
-
-
-img{
-  width: 300px;
-  height:200px;
  
-}
+
 body{
 font-family: Arial, Helvetica Nueue, Helvetica, sans-serif;
-width: 960px;
+background-color: #777777;
 }
 
 
 
+header{
+background-color: white;
+height: 50px;
+
+}
+.nav-bar{
+  width: 960px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.logo{
+  height: 50px;
+  width: 120px;
+  color: white;
+  background-color: #4aaaa5;
+  font-size: 24px;
+  text-align: center;
+  line-height: 45px;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav-right{
+  height: 50px;
+  width:180px;
+  float: right;
+  
+  line-height: 45px;
+  text-align: center
+
+}
+a{
+  margin-right: 5px;
+}
+a:link{
+  color: #777777;
+  text-decoration: none;
+}
+a:visited{
+  color: #777777;
+}
+.container{
+  width: 960px;
+  background-color: white;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  height: 900px;
+}
+.portrait{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.me{
+  color: #4aaaa5;
+  line-height: 3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.hr1{
+display:block;
+height: 4px;
+background-color: #dddddd;
+margin-bottom: 25px;
+border: none;
+
+}
+.image{
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+p{
+  float: right;
+  width:65%;
+}
+footer{
+  width:960px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  
+}
+.hr2{
+  display:block;
+  height: 4px;
+  background-color: #4aaaa5;
+  margin-bottom: 25px;
+  border: none;
+  width: 900px;
+}
